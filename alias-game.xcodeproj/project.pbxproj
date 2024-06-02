@@ -14,6 +14,9 @@
 		7D131E882C0C748B008FD945 /* alias_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D131E872C0C748B008FD945 /* alias_gameTests.swift */; };
 		7D131E922C0C748B008FD945 /* alias_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D131E912C0C748B008FD945 /* alias_gameUITests.swift */; };
 		7D131E942C0C748B008FD945 /* alias_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D131E932C0C748B008FD945 /* alias_gameUITestsLaunchTests.swift */; };
+		7D131EA12C0C78A1008FD945 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D131EA02C0C78A1008FD945 /* ResultView.swift */; };
+		7D131EA32C0C78B2008FD945 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D131EA22C0C78B2008FD945 /* SetupView.swift */; };
+		7D131EA52C0C78BE008FD945 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D131EA42C0C78BE008FD945 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		7D131E8D2C0C748B008FD945 /* alias-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alias-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D131E912C0C748B008FD945 /* alias_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alias_gameUITests.swift; sourceTree = "<group>"; };
 		7D131E932C0C748B008FD945 /* alias_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alias_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D131EA02C0C78A1008FD945 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		7D131EA22C0C78B2008FD945 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		7D131EA42C0C78BE008FD945 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				7D131E762C0C748A008FD945 /* alias_gameApp.swift */,
 				7D131E782C0C748A008FD945 /* ContentView.swift */,
+				7D131EA02C0C78A1008FD945 /* ResultView.swift */,
+				7D131EA22C0C78B2008FD945 /* SetupView.swift */,
+				7D131EA42C0C78BE008FD945 /* GameView.swift */,
 				7D131E7A2C0C748B008FD945 /* Assets.xcassets */,
 				7D131E7C2C0C748B008FD945 /* Preview Content */,
 			);
@@ -259,6 +268,9 @@
 			files = (
 				7D131E792C0C748A008FD945 /* ContentView.swift in Sources */,
 				7D131E772C0C748A008FD945 /* alias_gameApp.swift in Sources */,
+				7D131EA32C0C78B2008FD945 /* SetupView.swift in Sources */,
+				7D131EA12C0C78A1008FD945 /* ResultView.swift in Sources */,
+				7D131EA52C0C78BE008FD945 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
